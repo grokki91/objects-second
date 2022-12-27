@@ -34,7 +34,7 @@ describe('Check function toCaseSpecialAttack', () => {
         id: 9,
         name: 'Нокаутирующий удар',
         icon: 'http://...',
-        descriptionL: 'Описание недоступно',
+        description: 'Описание недоступно',
       },
     ];
     expect(toCaseSpecialAttack(character)).toEqual(expectedResult);
